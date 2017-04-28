@@ -1,0 +1,52 @@
+
+* {
+  font-family: 'Modern Antiqua';
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+body {
+  background: #6441A4;
+}
+#master {
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#master div {
+  display: flex;
+  margin-left: 5px;
+  margin-right: 5px;
+  flex-flow: row;
+}
+
+#master div:first-of-type {
+  margin-top: 10px;
+}
+#master div:last-of-type {
+  margin-bottom: 10px;
+}
+.logo {
+  height: 50px;
+  align-items: stretch
+}
+.offline {
+  background-color: #ff9b9b;
+}
+
+#buttons {
+  display: flex;
+justify-content: center;
+}
+
+#buttons button {
+display: flex;
+  width: 200px;
+  background-color: white;
+}
